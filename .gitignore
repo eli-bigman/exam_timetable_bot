@@ -4,3 +4,5 @@ logs/
 token.json
 serviceAccount.json
 .venv
+screenshots/
+src/_scraper.py
