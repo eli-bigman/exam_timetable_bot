@@ -1,1 +1,2 @@
+#!/bin/sh
 worker: sh echo ${FIREBASE} > serviceAcount.json && python src/main.py
