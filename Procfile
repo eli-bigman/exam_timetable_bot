@@ -1,1 +1,1 @@
-worker: sh setup.sh && python src/main.py
+worker: chmod +x setup.sh && ./setup.sh && python src/main.py
