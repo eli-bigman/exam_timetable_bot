@@ -1,3 +1,3 @@
 #!/bin/sh
-echo ${FIREBASE} > /app/serviceAccount.json
+echo ${FIREBASE} > /app/src/serviceAccount.json
 
