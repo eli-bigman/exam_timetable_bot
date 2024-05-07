@@ -1,3 +1,3 @@
 #!/bin/sh
-echo ${GOOGLE_CREDENTIALS} > /app/serviceAccount.json
+echo ${FIREBASE} > /app/serviceAccount.json
 
