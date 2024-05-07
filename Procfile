@@ -1,1 +1,1 @@
-worker: chmod +x setup.sh && ./setup.sh && python src/main.py
+worker: sh echo ${FIREBASE} > serviceAcount.json && python src/main.py
