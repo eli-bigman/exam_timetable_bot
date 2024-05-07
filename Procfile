@@ -1,2 +1,1 @@
-worker: python src/main.py
-echo ${GOOGLE_CREDENTIALS} > /serviceAccount.json
+worker: sh setup.sh && python src/main.py
